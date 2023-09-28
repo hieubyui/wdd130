@@ -1,5 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 main {
     max-width: 840px;
+    
 }
 
 aside {
@@ -17,9 +24,16 @@ adise img {
     height: auto;
 }
 
+aside h2 {
+    position: absolute;
+    top: 47px;
+    left: 150px;
+}
+
 main img {
     width: 150px;
     height: auto;
+    float: right;
     
 
 }
@@ -31,3 +45,14 @@ footer {
     border-top: 1px solid #e3dac9;
     text-align: center;
 }
+
+.box {
+    margin: 1rem;
+    border: 1px solid rgba(0,0,0,.1);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
+
+}
+
+/* Class Selectors */

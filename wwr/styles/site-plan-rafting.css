@@ -53,7 +53,7 @@ header {
   padding: 20px;
   text-align: center;
   color: var(--headline-color-on-color);
-  background-color: var(--accent1-color);
+  background-color: var(--primary-color);
 }
 header > h1, header > h2 {
   color: var(--headline-color-on-color);

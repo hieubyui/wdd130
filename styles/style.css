@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    max-width: 840px;
+    
+}
+
+aside {
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid rbga(0, 0, 0, 0.2) ; /* 1️⃣ */
+    padding: 1rem;
+    background-color: #282626;
+    color: #e3dac9 ; 
+    text-align: center;
+    position: relative;
+}
+
+aside img {
+    width: 230px;
+    height: auto;
+    position: relative;
+}
+
+aside h2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+main img {
+    width: 100px;
+    height: auto;
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+    float: right;
+    margin: 0 0 1rem 1rem;
+    
+
+}
+
+p { 
+    margin: 1rem;
+    padding: 0;
+}
+
+footer {
+    margin-top: 1em;
+    border-top: 1px solid #e3dac9;
+    text-align: center;
+}
+
+.box {
+    margin: 1rem;
+    border: 1px solid rgba(0,0,0,.1);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
+}
+
+
+/* Class Selectors */

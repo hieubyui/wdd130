@@ -2,25 +2,37 @@ main {
     max-width: 840px;
 }
 
+header {
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+}
+
 aside {
     width: 20rem;
-    margin: 1rem;
+    margin: 1em;
     border: 1px solid rbga(0, 0, 0, 0.2) ; /* 1️⃣ */
-    padding: 1rem;
-    background-color: #282626;
-    color: #e3dac9 ;
+    padding: 1em;
+    background-color: #eee;
+    color: #333 ;
     text-align: center;
 }
 
-adise img {
+h1 {
+    color: steelblue;
+}
+
+aside img {
     width: 200px;
     height: auto;
 }
 
 main img {
-    width: 150px;
+    width: 200px;
     height: auto;
-    
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
 
 }
 
@@ -28,6 +40,6 @@ p { padding: 0;}
 
 footer {
     margin-top: 1em;
-    border-top: 1px solid #e3dac9;
+    border-top: 1px solid #000;
     text-align: center;
 }

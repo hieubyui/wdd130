@@ -15,7 +15,7 @@
   --paragraph-color-on-white: #505050; /* paragraph text on a white background */ 
   --paragraph-color-on-color: #F9F6EE; /* paragraph text on a colored background */ 
   --paragraph-background-color: #XXXXXX  ;
-  --nav-link-color: #ED862C;
+  --nav-link-color: steelblue;
   --nav-background-color: #XXXXXX;
   --nav-hover-link-color: #XXXXXX;
   --nav-hover-background-color: #XXXXXX;
@@ -47,7 +47,7 @@ h2 {
 hr {
   height: 3px;
   margin: 35px 0;
-  background: var(--accent1-color);
+  background: var(--primary-color);
 }
 header {
   padding: 20px;

@@ -2,23 +2,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Great+Vibes&display=swap');
 
 :root {
-  --primary-color: #505050   ;
+  --primary-color: #414141   ;
   --secondary-color: #F9F6EE ;
-  --accent1-color: #ED862C;
-  --accent2-color: #5F74D5;
+  --accent1-color: #cd5659;
+  --accent2-color: #9b9b9b;
 
   --heading-font: "Great Vibes";
   --paragraph-font: "Confortaa family";
 
-  --headline-color-on-white: #505050;  /* headlines on a white background */ 
+  --headline-color-on-white: #cd5659;  /* headlines on a white background */ 
   --headline-color-on-color: #F9F6EE; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #505050; /* paragraph text on a white background */ 
+  --paragraph-color-on-white: #414141; /* paragraph text on a white background */ 
   --paragraph-color-on-color: #F9F6EE; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #XXXXXX  ;
-  --nav-link-color: steelblue;
-  --nav-background-color: #XXXXXX;
-  --nav-hover-link-color: #XXXXXX;
-  --nav-hover-background-color: #XXXXXX;
+  --paragraph-background-color: #000  ;
+  --nav-link-color: #000;
+  --nav-background-color: #cd5659;
+  --nav-hover-link-color:#000;
+  --nav-hover-background-color: #b3484b;
 }
 
 

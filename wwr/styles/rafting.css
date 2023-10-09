@@ -1,35 +1,93 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Great+Vibes&display=swap');
 
 :root {
-    --primary-color: #505050   ;
-    --secondary-color: #F9F6EE ;
-    --accent1-color: #ED862C;
-    --accent2-color: #5F74D5;
-  
-    --heading-font: "Great Vibes";
-    --paragraph-font: "Confortaa family";
-  
-    --headline-color-on-white: #505050;  /* headlines on a white background */ 
-    --headline-color-on-color: #F9F6EE; /* headlines on a colored background */ 
-    --paragraph-color-on-white: #505050; /* paragraph text on a white background */ 
-    --paragraph-color-on-color: #F9F6EE; /* paragraph text on a colored background */ 
-    --paragraph-background-color: #XXXXXX  ;
-    --nav-link-color: #ED862C;
-    --nav-background-color: #XXXXXX;
-    --nav-hover-link-color: #XXXXXX;
-    --nav-hover-background-color: #XXXXXX;
-  }
-  
-.hero img {
-    display: block;
-    width: 100%;
-    height: auto;
+  --primary-color: #414141   ;
+  --secondary-color: #F9F6EE ;
+  --accent1-color: #cd5659;
+  --accent2-color: #9b9b9b;
+
+  --heading-font: "Great Vibes";
+  --paragraph-font: "Confortaa family";
+
+  --headline-color-on-white: #cd5659;  /* headlines on a white background */ 
+  --headline-color-on-color: #F9F6EE; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #414141; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: #F9F6EE; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #000  ;
+  --nav-link-color: #000;
+  --nav-background-color: #cd5659;
+  --nav-hover-link-color:#000;
+  --nav-hover-background-color: #b3484b;
 }
+
+/* Navigation Bar */
+nav {
+  background-color: var(--primary-color);
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a { 
+  display: block;
+  padding: 0.5rem;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 70;
+  color: #F9F6EE ;
+}
+
+/* Similar to aside element in index.html. Ours is called main*/
+
+main img {
+  height: auto;
+}
+
+main h1 {
+  font-weight: 70;
+  position: absolute;
+  top: 50px;
+  left: 300px;
+}
+
+
+
+/* .hero class. background.blur */
+
+.hero {
+  position: relative;
+  margin: 1rem;
+  border: 1px solid rgba(0, 0, 0, .1);
+  padding: 1rem;
+  background-color: #5F74D5;
+  color: #F9F6EE;
+}
+
+.hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+
+}
+
+/* article */
+
+article {
+  font-size: 1rem;
+  font-weight: 70;
+}
+
+
+
+
+
 body {
-    font-family: var(--paragraph-font);
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 20px;
-    font-size: 18px;
-    text-align: center;
-  }
+  font-family: var(--paragraph-font);
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+  font-size: 18px;
+  text-align: center;
+}
+

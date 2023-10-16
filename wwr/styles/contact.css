@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Great+Vibes&display=swap');
+
+:root {
+  --primary-color: #414141   ;
+  --secondary-color: #F9F6EE ;
+  --accent1-color: #cd5659;
+  --accent2-color: #9b9b9b;
+
+  --heading-font: "Confortaa family";
+  --paragraph-font: "Confortaa family";
+
+  --headline-color-on-white: #cd5659;  /* headlines on a white background */ 
+  --headline-color-on-color: #F9F6EE; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #414141; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: #F9F6EE; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #000  ;
+  --nav-link-color: #000;
+  --nav-background-color: #cd5659;
+  --nav-hover-link-color:#000;
+  --nav-hover-background-color: #b3484b;
+
+
+/* common header nav */
+
+
+header {
+	margin: 1rem auto;
+	display: grid;
+	grid-template-columns: 120px 1fr 2fr;
+	align-items: center;
+	border-bottom: 1px solid #ccc;
+	max-width: 800px;
+    display: flex;
+    justify-content: space-evenly;
+}
+header nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo img {
+	margin: 0 0.25rem 0 1rem;
+	width: 64px;
+	height: auto;
+}
+
+h1 {
+	font-size: 2rem;
+	font-family: Acme, Arial, sans-serif;
+}
+
+nav {
+	text-align: right;
+    background-color: var(--primary-color);
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation {
+	display: flex;
+	list-style: none;
+}
+
+.navigation li {
+	flex: 1 1 100%;
+}
+
+.navigation a {
+	display: block;
+	color: var(--paragraph-color-on-color);
+	padding: 50px;
+	text-decoration: none;
+}
+
+.navigation a:hover {
+	color: var(--nav-hover-link-color);
+	font-weight: 700;
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
+}
+h1 {
+    font-family: var(--heading-font);
+    position: relative;
+    text-align: center;
+    bottom: 20rem; 
+    background-color: #ffffff61;
+} 
+
+h2 {
+    font-family: var(--heading-font);
+    color: var(--accent1-color);
+    display: grid;
+}
+p {
+    font-family: var(--paragraph-font);
+    padding: 2px;
+}
+body {
+    max-width: 960px;
+    padding: 2px;
+}

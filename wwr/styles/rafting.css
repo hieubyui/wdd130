@@ -144,8 +144,8 @@ header {
 	align-items: center;
 	border-bottom: 1px solid #ccc;
 	max-width: 800px;
-    display: flex;
-    justify-content: space-evenly;
+  display: flex;
+  justify-content: space-evenly;
 }
 header nav {
     display: flex;

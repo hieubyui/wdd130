@@ -1,53 +1,160 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="W03 Rafting Project: Contact Us Page">
-        <meta name="author" content="Hieu Ngo">
-        <title>Redhawk Rapids | Contact Us</title>
-        <link rel="stylesheet" href="styles/contact.css">
-    </head>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Rafting Project Final: Trips Page">
+    <meta name="author" content="Hieu Ngo">
+    <title>Redhawk Rapids | Trips</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
 <body>
-    <header>
+    <section class="header">
         <nav>
-            <ul class="navigation">
-                <img src="images/logo.png" alt="logo">
-                <a href="index.html">Home</a>
-                <a href="about.html">About Us</a>
-                <a href="trips.html">Trips</a>
-                <a href="contact.html">Contact Us</a>
-            </ul>
-        </nav>
-    </header>
-    <main>
+        <div>
+            <div class="navbar">
+                <img src="images/logo1.png" class="logo">
+                <ul class="navigation">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="trips.html">Trips</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+        </div>
+        </nav> 
+        <div class="content">
+            <h1>Start a trip Today.</h1>
+            <p>Check out our current trips or start a trip with the button below</p>
+            <div>
+                <ul class="button">
+                    <a href="contact.html" target="_blank">
+                        <button style="
+                            margin: 1rem;
+                            background-color: #cd5659;
+                            color: #fff;
+                            border: none;
+                            border-radius: .5rem;
+                            padding: .75rem;
+                            font-size: 1.2rem;
+                            ">Start a Trip</button></a>
+                </ul>
+            </div>
+        </div>
+</section>
 
-        <ul class="button">
-            <a href="contact.html" target="_blank">
-                <button style="
-                    margin: 1rem;
-                    background-color: navy;
-                    color: #fff;
-                    border: none;
-                    border-radius: .5rem;
-                    padding: .75rem;
-                    font-size: 1.2rem;
-                    ">Start a Trip</button></a>
-        </ul>
-    </main>
-    <footer>
-        <p>©2024 ⛏ Hieu Ngo ⛏ RedHawk Rafting ⛏</p>
-            <nav class="sociallinks">
-                <a href="https://facebook.com">
-                    <img src="images/facebook.webp" alt="facebook" width="40">
-                </a>
-                <a href="https://www.tumblr.com/">
-                    <img src="images/tumblr.webp" alt="tumblr" width="40">
-                </a> 
-                <a href="https://www.linkedin.com/">
-                    <img src="images/linkedin.webp" alt="linkedin" width="40">
-                </a>
-            </nav>
-        </footer>
-    </body>
+<!----------- History --------->
+    <style>
+    table, th, td {
+      border:1px solid black;
+    }
+    </style>
+<section class="history">
+    <h1>Availability is low!</h1>
+    <p>Hurry! Our reservations are running up dry! 7 spots left!</p>
+    
+    <div class="row">
+        <div class="history-col">
+            <h3>Current Pricing</h3>
+            <table style="width:100%">
+                <tr>
+                  <th>Trip Name</th>
+                  <th>Difficulty</th>
+                  <th>Cost</th>
+                </tr>
+                <tr>
+                  <td>Wildlife Watch on White Water</td>
+                  <td>Beginner | No experience</td>
+                  <td>$50 per person</td>
+                </tr>
+                <tr>
+                  <td>Desert Oasis Discovery</td>
+                  <td>Novice | 2+ months</td>
+                  <td>$50 per person</td>
+                </tr>
+                <tr>
+                  <td>Raging Rapids Rendezvous</td>
+                  <td>Veteran | 1+ year</td>
+                  <td>$600 per boat</td>
+                </tr>
+              </table>
+            <p>*All essential equipment included in cost</p>
+
+        </div>
+        <div class="history-col">
+            <h3>Itinerary</h3>
+            <u>Wildlife Watch on White Water</u>
+            <p>Our Wildlife Watch on White Water trip is designed for nature enthusiasts and adventure seekers alike. <br>Animal sightings include: Desert bighorn sheep, owls, hawks, bald eagles</p>
+            <u><br> Desert Oasis Discovery</u>
+            <p>You'll conquer thrilling white water rapids by day, and as the sun sets, you'll unwind in luxurious desert oases under a star-studded sky. It's a perfect balance of adrenaline and serenity for the discerning adventurer.</p>
+            <u><br>Raging Rapids Rendezvous</u>
+            <p>Feel the rush as you conquer each rapid, and hold on as the river twists and turns. Between the adrenaline surges, savor the stunning natural beauty that surrounds you. It's an action-packed rendezvous with nature's forces, and an unforgettable journey for thrill-seekers. Get ready for a wild and exhilarating ride with the "Raging Rapids Rendezvous"!</p>
+
+        </div>
+        <div class="history-col">
+            <h3>Meet Our Team</h3>
+            <img src="images/expert1.jpg">
+            <img src="images/expert2.jpg">
+            <img src="images/expert3.png">
+            
+        </div>
+    </div>
+
+
+</section>
+
+
+<!-- --------- Campus ---------- -->
+<section class="campus">
+    <h1>Open Your Wings</h1>
+    <p></p> 
+
+    <div class="row">
+        <div class="campus-col">
+            <img src="images/trips1.jpg">
+            <div class="layer">
+                <h3>Wildlife Watch on White Water</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="images/trips2.jpg">
+            <div class="layer">
+                <h3>Desert Oasis Discovery</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="images/trips3.jpg">
+            <div class="layer">
+                <h3>Raging Rapids Rendezvous</h3>
+            </div>
+        </div>
+    </div>
+    <!-- IMAGE SIZE IS 1600 800 -->
+</section>
+
+
+
+
+<!-- footer -->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>©2024 ⛏ Hieu Ngo ⛏ Redhawk Rafting ⛏</p>
+    <div class="icons">
+        <nav>
+            <a href="https://facebook.com">
+                <img src="images/facebook.webp" alt="facebook" width="40">
+            </a>
+            <a href="https://www.tumblr.com/">
+                <img src="images/tumblr.webp" alt="tumblr" width="40">
+            </a> 
+            <a href="https://www.linkedin.com/">
+                <img src="images/linkedin.webp" alt="linkedin" width="40">
+            </a>
+        </nav>
+    </div>
+    <p>Made with WDD130</p>
+</section>
+
+
+</body>
 </html>

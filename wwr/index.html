@@ -6,84 +6,77 @@
     <meta name="description" content="Rafting Project Final: Home Page">
     <meta name="author" content="Hieu Ngo">
     <title>Redhawk Rapids | Home</title>
-    <link rel="stylesheet" href="styles/rafting.css">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <header>
-        <nav>
+<section>
+    <div class="header">
+        <div class="navbar">
+            <img src="images/logo1.png" class="logo">
             <ul class="navigation">
-                <!-- <li> -->
-                <img src="images/logo.png" alt="logo">
-                <a href="#">Home</a>
-                <a href="about.html">About Us</a>
-                <a href="trips.html">Trips</a>
-                <a href="contact.html">Contact Us</a>
-                <!-- </li> -->
+                <li><a href="#">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
             </ul>
-        </nav>
-    </header>
-    <main>
-        <div class="hero">
-            <img src="images/background_blur.jpg" alt="background" width="700">
-            <h1>RedHawk Rapids</h1>
-            <article>
-            <h2></h2>
-                <img src="images/happy_client.jpg" alt="happy client" width="200">
-                <p>
-                    <!-- <b>Our purpose</b> is to provide thrilling and unforgettable white water rafting experiences that connect people with nature, promote adventure, and create lasting memories. -->
-                <!-- <br><b>Our mission</b> is dedicating to safe and exhilarating rafting adventures for adventurers of all levels.  -->
-                <!-- <br><b>At Redhawk Rapids,</b> we live by the creed of "Adventure, Unity, Conservation." We believe in embracing the spirit of adventure, fostering a sense of unity among our guests and team, and contributing to the conservation of the beautiful rivers and landscapes we explore. -->
-                <br><b>Our Motto:</b> "Adventure Meets Tradition, Where Rapids Roar and Nature Soars!
-                </p>
-            </article>
         </div>
-        <section class="history">
-            <h3>History</h3>
-            <p>Founded by Native American Aiyana Redhawk in the early 1900s, "Redhawk Rapids" began as a Grand Canyon white water rafting company.
-                Aiyana's deep connection to the land led to thrilling river expeditions.
-                His commitment to environmental preservation set Redhawk Rapids apart.
-                The company grew, becoming an icon of responsible adventure tourism.
-                Aiyana's daughter, Sakari, continued his legacy, expanding operations across the American West.
-                Today, Redhawk Rapids remains a symbol of Native American heritage and sustainable adventure, offering unforgettable journeys while safeguarding the natural beauty of the rivers and canyons that have been its home for over a century.</p>
-            <img src="images/aiyana.png" alt="Aiyana Redhawk" width="300">
-        </section>
-        <section class="adventure">
-            <h4>Adventure Awaits You!</h4>
-            <figure class="fig1">
-                <img src="images/adventureawaits1.jpg" alt="Bottom of the Grand Canyon" width="400">
-                <figcaption>Rafting 1</figcaption>
-            </figure>   
-            <figure class="fig2">            
-                <img src="images/adventureawaits2.jpg" alt="Grand Canyon during Spring" width="400">
-                <figcaption>Rafting 2</figcaption>
-            </figure>
-            <figure class="fig3">
-                <img src="images/adventureawaits3.jpg" alt="Looking out from the Redwall Cavern" width="400">
-                <figcaption>Rafting 3</figcaption>
-            </figure>
-            <figure class="fig4">
-                <img src="images/deso-boats.jpg" alt="Canoeing during storm" width="400">
-                <figcaption>Rafting 4</figcaption>
-            </figure>
-            <figure class="fig5">
-                <img src="images/hero.jpg" alt="Canoeing during storm" width="400">
-                <figcaption>Rafting 5</figcaption>
-            </figure>
-        </section>
-    </main>
-    <footer>
-        <p>©2024 ⛏ Hieu Ngo ⛏ RedHawk Rafting ⛏</p>
-            <nav class="sociallinks">
-                <a href="https://facebook.com">
-                    <img src="images/facebook.webp" alt="facebook" width="40">
-                </a>
-                <a href="https://www.tumblr.com/">
-                    <img src="images/tumblr.webp" alt="tumblr" width="40">
-                </a> 
-                <a href="https://www.linkedin.com/">
-                    <img src="images/linkedin.webp" alt="linkedin" width="40">
-                </a>
-            </nav>
-        </footer>
-    </body>
+        <div class="content">
+            <h1>Spread Your Wings</h1>
+            <p>To start your experience| Go to the Trips Page</p>
+            <div>
+                <!-- Buttons don't actually do anything.
+                     I would need to assign onclick command to script that does stuff.    
+                     If you want me to do that let me know -->
+                <button type="button"><span></span>About Us</button>
+                <button type="button"><span></span>Trips</button>
+            </div>
+        </div>
+</section>
+<main>
+    <!------------- Newsletter Sign Up Form ------------->
+<section class="newsletter">
+    <h2>Sign up for our Newsletter</h2>
+    <form>
+        <fieldset class="form">
+            <legend></legend>
+            <div class="form-item">
+            <label for ="name">Name</label>
+            <input type="text" id="name" name="name">
+            </div>
+            <div>
+            <label for="email">Email:</label>
+            <input type="email" id="useremail" name="useremail">
+            </div>
+            <div>
+                <button class="newsletterbtn" type="newsletterbtn"><span></span>Sign Up</button>
+            </div>
+        </fieldset>
+    </form>
+</section>
+
+</section>
+</main>
+<!-- footer -->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>©2024 ⛏ Hieu Ngo ⛏ Redhawk Rafting ⛏</p>
+    <div class="icons">
+        <nav>
+            <a href="https://facebook.com">
+                <img src="images/facebook.webp" alt="facebook" width="40">
+            </a>
+            <a href="https://www.tumblr.com/">
+                <img src="images/tumblr.webp" alt="tumblr" width="40">
+            </a> 
+            <a href="https://www.linkedin.com/">
+                <img src="images/linkedin.webp" alt="linkedin" width="40">
+            </a>
+        </nav>
+    </div>
+    <p>Made with WDD130</p>
+</section>
+</body>
 </html>
+
+<section

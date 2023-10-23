@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="W03 Rafting Project: Contact Us Page">
     <meta name="author" content="Hieu Ngo">
-    <title>'Contact' Redhawk Rapids</title>
+    <title>Contact Redhawk Rapids White Water Rafting</title>
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
 <body>
@@ -57,19 +57,30 @@
             <div>
                 <textarea id="q2" name="q2" rows="4" placeholder=""></textarea>
             </div>
-            <label for="pet">Have you visited us before?</label>
-            <input type="checkbox" id="pet" name="pet">
+            <label for="equipment">I have my own equipment</label>
+            <input type="checkbox" id="equipment" name="equipment">
 
+            <fieldset>
+                <legend>Select one that applies</legend>
+              
+                <div>
+                  <input type="radio" id="new" name="radio" value="new" checked />
+                  <label for="new">I am a new customer</label>
+                </div>
+              
+                <div>
+                  <input type="radio" id="returning" name="radio" value="returning" />
+                  <label for="returning">I am a returning customer</label>
+                </div>
+              
+                <div>
+                  <input type="radio" id="browsing" name="radio" value="browsing" />
+                  <label for="browsing">I am just browsing</label>
+                </div>
+              </fieldset>
+            </div>
             <div>
-                <button style="
-                margin: 1rem;
-                background-color: #cd5659;
-                color: #fff;
-                border: none;
-                border-radius: .5rem;
-                padding: .75rem;
-                font-size: 1.2rem;
-                ">Submit</button>
+                <button class="newsletterbtn" type="newsletterbtn"><span></span>Submit</button>
             </div>
         </fieldset>
     </form>

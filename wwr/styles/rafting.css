@@ -279,16 +279,32 @@ p{
 }
 
 
+/* adventure */
 
+.adventure {
+    /* flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    display: flex; */
 
+    display: flex;
+    position: relative;
+}
 
-
-
-
-
-
-
-
+.adventure img {
+    flex-direction: row;
+    position: relative;
+    width: 100%;
+    /* bottom: 90rem;
+    right: 7rem; */
+}
+.adventure figcaption {
+    position: relative;
+    /* bottom: 90rem;
+    right: 1rem;  */
+}
 
 
 /* ----------------footer---------------- */

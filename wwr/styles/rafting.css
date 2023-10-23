@@ -21,14 +21,14 @@
   --nav-hover-background-color: #b3484b;
 }
 
-/*------------------- TUTORIAL START ----------------------------------------------*/
+/* TUTORIAL START */
 *{
     margin: 0;
     padding: 0;
     font-family: var(--heading-font);
 }
 
-.banner {
+.header {
     width: 100%;
     height: 100vh;
     background-image: linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.15)),url(../images/background1.jpg);
@@ -48,7 +48,7 @@
 }
 
 .logo{
-    width: 120px;
+    width: 300px;
     cursor: pointer;
 }
 
@@ -99,6 +99,7 @@
     margin: 20px auto;
     font-weight: 100;
     line-height: 25px;
+    color: var(--secondary-color);
 }
 
 button {
@@ -110,7 +111,7 @@ button {
     font-weight: bold;
     border: 2px solid var(--accent1-color);
     background: transparent;
-    color: white;
+    color: var(--secondary-color);
     cursor: pointer;
     position: relative;
     overflow: hidden;
@@ -136,181 +137,173 @@ button:hover{
     border:none;
 }
 
-/* ------------------- TUTORIAL END ------------------------------------------------*/
+/* --------------- NEWSLETTER --------------*/
 
-
-
-h1 {
-    font-family: var(--heading-font);
-    position: relative;
+.newsletter{
+    width: 80%;
+    margin: auto;
     text-align: center;
-    bottom: 20rem; 
-    background-color: #ffffff61;
-} 
+    padding: 100px;
 
-h2 {
-    font-family: var(--heading-font);
-    color: var(--accent1-color);
-    display: grid;
-}
-p {
-    font-family: var(--paragraph-font);
-    padding: 2px;
-}
-body {
-    max-width: 960px;
-    padding: 2px;
-}
-.hero img {
-    display: block;
-    width: 100%;
-    height: 20rem;
-    position: relative;
-    padding: 50px;
-}
-.hero article {
-    position: relative;
-    background-color: #1cb3ca36;
-    bottom: 18rem;
-    left: 50px;
-    
-}
-.hero article > img {
-    width: 10rem;
-    height: auto;
-    float: right;
-    bottom: 45px;
-}
-section {
-    position: relative;
-    bottom: 12rem;
-}
-.history {
-    display: grid;
-    grid-template-columns: 3fr 6fr;    
-    grid-template-rows: 80px 1fr 3fr 3fr;
-    align-items: center;
-}
-.history img {
-    width: 400px;
-    grid-column: 2 / 3 ;
-    grid-row: 2/3;
-    
-}
-.history p {
-    grid-column: 1 / 2;
-    width: 800px;
-    grid-row: 2 / 3;
-}
-.adventure {
-    display: flex;
-    position: relative;
 }
 
-.adventure img {
-    flex-direction: row;
-    position: relative;
+.newsletter h2{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.form {
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+
+.newsletterbtn {
     width: 200px;
-    bottom: 90rem;
-    right: 7rem;
-    
-}
-.adventure figcaption {
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid var(--nav-hover-link-color);
+    background: transparent;
+    color: var(--nav-link-color);
+    cursor: pointer;
     position: relative;
-    bottom: 90rem;
-    right: 1rem;    
+    overflow: hidden;
 }
-.fig1 figcaption {
-    right: 55px
+
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
 }
-.fig1 img{
-    width: 300px;
+
+/* ------------ history ----------- */
+.history {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
 
 }
-.fig2 img {
-    width: 300px;
+
+h1{
+    font-size: 36px;
+    font-weight: 600;
 }
-.fig3 img {
-    width: 270px;
+p{
+    color: black;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 38px;
+    padding: 10px;
 }
-.fig4 img {
-    width: 300px
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
 }
-.fig5 img {
-    width: 270px;
-}
-footer {
+
+.history-col {
+    flex-basis: 31%;
+    background: var(--secondary-color);
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
     position: relative;
-    bottom: 97rem;
-    text-decoration: none;
-    display: grid;
-    grid-template-columns: 1fr auto 1fr;
-    grid-template-rows: 80px 1fr;
-}
-footer p {
-    grid-column: 2;
-}
-footer nav {
-    grid-column: 4;
+    overflow: hidden;
 }
 
-/* common header common nav */
 
-
-
-header {
-	margin: 1rem auto;
-	display: grid;
-	grid-template-columns: 120px 1fr 2fr;
-	align-items: center;
-	border-bottom: 1px solid #ccc;
-	max-width: 800px;
-  display: flex;
-  justify-content: space-evenly;
-}
-header nav {
-  display: flex;
-  justify-content: space-evenly;
+.history-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
 }
 
-.logo img {
-	margin: 0 0.25rem 0 1rem;
-	width: 64px;
-	height: auto;
+/* campus */
+
+.campus{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.campus-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
 }
 
-h1 {
-	font-size: 2rem;
-	font-family: Acme, Arial, sans-serif;
+.campus-col img{
+    width: 100%;
+    display: block;
 }
 
-nav {
-	text-align: right;
-  background-color: var(--primary-color);
-  padding: 1rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.layer{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
 }
 
-.navigation {
-	display: flex;
-	list-style: none;
+.layer:hover{
+    background: rgba(226,0,0,0.70);
 }
 
-/* .navigation li {
-	flex: 1 1 100%;
-} */
-
-.navigation a {
-	display: block;
-	color: var(--paragraph-color-on-color);
-	padding: 50px;
-	text-decoration: none;
+.layer h3{
+    width:100%;
+    font-weight: 500;
+    color:#fff3f3;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 0.5s;
+    position: absolute;
+    opacity: 0;
+}
+.layer:hover h3{
+    bottom: 49%;
+    opacity: 1;
 }
 
-.navigation a:hover {
-	color: var(--nav-hover-link-color);
-	font-weight: 700;
-	text-decoration: underline;
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------footer---------------- */
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+.footer h4{
+    margin-bottom: 2px;
+    margin-top: 2px;
+    font-weight: 600;
+}
+.icons {
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 1px 0;
 }

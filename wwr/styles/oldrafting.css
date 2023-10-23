@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+:root {
+  --primary-color: #414141   ;
+  --secondary-color: #F9F6EE ;
+  --accent1-color: #cd5659;
+  --accent2-color: #9b9b9b;
+
+  --heading-font: "Open Sans";
+  --paragraph-font: "Confortaa family";
+
+  --headline-color-on-white: #cd5659;  /* headlines on a white background */ 
+  --headline-color-on-color: #F9F6EE; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #414141; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: #F9F6EE; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #000  ;
+  --nav-link-color: #000;
+  --nav-background-color: #cd5659;
+  --nav-hover-link-color:#000;
+  --nav-hover-background-color: #b3484b;
+}
+
+/*------------------- TUTORIAL START ----------------------------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: var(--heading-font);
+}
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.15)),url(../images/background1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.navbar {
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;   
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: var(--secondary-color);
+    text-transform: uppercase;
+}
+
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: var(--accent1-color);
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.4s;
+}
+
+.navbar ul li:hover::after{
+    width: 100%;
+
+}
+
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: var(--secondary-color);
+}
+
+.content h1{
+    font-size: 70px;
+    margin-top: 80px;
+}
+
+.content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+
+button {
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid var(--accent1-color);
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+span {
+    background: var(--accent1-color);
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.8s;
+}
+
+button:hover span{
+    width: 100%;
+}
+
+button:hover{
+    border:none;
+}
+
+/* ------------------- TUTORIAL END ------------------------------------------------*/
+
+
+
+h1 {
+    font-family: var(--heading-font);
+    position: relative;
+    text-align: center;
+    bottom: 20rem; 
+    background-color: #ffffff61;
+} 
+
+h2 {
+    font-family: var(--heading-font);
+    color: var(--accent1-color);
+    display: grid;
+}
+p {
+    font-family: var(--paragraph-font);
+    padding: 2px;
+}
+body {
+    max-width: 960px;
+    padding: 2px;
+}
+.hero img {
+    display: block;
+    width: 100%;
+    height: 20rem;
+    position: relative;
+    padding: 50px;
+}
+.hero article {
+    position: relative;
+    background-color: #1cb3ca36;
+    bottom: 18rem;
+    left: 50px;
+    
+}
+.hero article > img {
+    width: 10rem;
+    height: auto;
+    float: right;
+    bottom: 45px;
+}
+section {
+    position: relative;
+    bottom: 12rem;
+}
+.history {
+    display: grid;
+    grid-template-columns: 3fr 6fr;    
+    grid-template-rows: 80px 1fr 3fr 3fr;
+    align-items: center;
+}
+.history img {
+    width: 400px;
+    grid-column: 2 / 3 ;
+    grid-row: 2/3;
+    
+}
+.history p {
+    grid-column: 1 / 2;
+    width: 800px;
+    grid-row: 2 / 3;
+}
+.adventure {
+    display: flex;
+    position: relative;
+}
+
+.adventure img {
+    flex-direction: row;
+    position: relative;
+    width: 200px;
+    bottom: 90rem;
+    right: 7rem;
+    
+}
+.adventure figcaption {
+    position: relative;
+    bottom: 90rem;
+    right: 1rem;    
+}
+.fig1 figcaption {
+    right: 55px
+}
+.fig1 img{
+    width: 300px;
+
+}
+.fig2 img {
+    width: 300px;
+}
+.fig3 img {
+    width: 270px;
+}
+.fig4 img {
+    width: 300px
+}
+.fig5 img {
+    width: 270px;
+}
+footer {
+    position: relative;
+    bottom: 97rem;
+    text-decoration: none;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    grid-template-rows: 80px 1fr;
+}
+footer p {
+    grid-column: 2;
+}
+footer nav {
+    grid-column: 4;
+}
+
+/* common header common nav */
+
+
+
+header {
+	margin: 1rem auto;
+	display: grid;
+	grid-template-columns: 120px 1fr 2fr;
+	align-items: center;
+	border-bottom: 1px solid #ccc;
+	max-width: 800px;
+  display: flex;
+  justify-content: space-evenly;
+}
+header nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.logo img {
+	margin: 0 0.25rem 0 1rem;
+	width: 64px;
+	height: auto;
+}
+
+h1 {
+	font-size: 2rem;
+	font-family: Acme, Arial, sans-serif;
+}
+
+nav {
+	text-align: right;
+  background-color: var(--primary-color);
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation {
+	display: flex;
+	list-style: none;
+}
+
+/* .navigation li {
+	flex: 1 1 100%;
+} */
+
+.navigation a {
+	display: block;
+	color: var(--paragraph-color-on-color);
+	padding: 50px;
+	text-decoration: none;
+}
+
+.navigation a:hover {
+	color: var(--nav-hover-link-color);
+	font-weight: 700;
+	text-decoration: underline;
+}
